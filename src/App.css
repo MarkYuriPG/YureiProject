@@ -1,16 +1,13 @@
 .App {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  padding-left: 18%;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  align-content: center;
+  overflow-y: auto;
+  overflow-x: 0;
+  flex-direction: column;
+  height: 100%;
 }
 
 .App-header {
@@ -28,11 +25,28 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* body {
+  background-image: url('C:\Users\Mark\projects\my_portfolio\src\assets\amelia_watson.png');
+  
+  background-size: cover;
+  background-position: center;
+  filter: blur(8px); 
+} */
+
+body {
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('C:\Users\Mark\projects\my_portfolio\src\assets\amelia_watson.png');
+  background-size: cover;
+  background-position: center;
+  filter: blur(10px); /* Apply blur effect to the background image */
+  z-index: -1; /* Ensure the background image is behind other content */
 }

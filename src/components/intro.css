@@ -1,0 +1,28 @@
+
+.introduction {
+    display: flex; /* Use Flexbox for layout */
+    width: 800px;
+    align-items: center; /* Align items vertically */
+    background-color: transparent;
+    padding-top: 50px;
+    padding-left: 25px;
+  }
+  
+  .introduction-text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    flex: 1;
+    text-align: left;
+    margin-left: 62px;
+    padding-right: 60px; 
+  }
+  
+  .my-picture {
+    width: 275px; /* Set the width of the image */
+    height: 275px; /* Set the height of the image */
+    border-radius: 50%; /* Make the image circular */
+    object-fit: cover; /* Ensure the image covers the frame without distortion */
+    border: 5px solid #ff0000; /* Optional: Add a border around the image */
+    margin: 20px auto; /* Center the image horizontally */
+    display: block; /* Ensure the image is treated as a block-level element */
+  }

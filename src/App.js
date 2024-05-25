@@ -1,25 +1,29 @@
-import logo from './logo.svg';
+/* eslint-disable jsx-a11y/img-redundant-alt */
+import React from 'react';
+import MyAppBar from './components/MyAppBar.js';
 import './App.css';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import Introduction from './components/Introduction.js';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <MyAppBar />
+        <Introduction />
+        <Routes>
+        </Routes>
+      </Router>
     </div>
   );
+}
+
+function Home() {
+  return <h2>Home</h2>;
+}
+
+function About() {
+  return <h2>About</h2>;
 }
 
 export default App;
