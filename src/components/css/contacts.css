@@ -12,6 +12,11 @@
     text-align: center;
     align-items: center;
     justify-content: center;
+    transition: transform 0.3s ease;
+  }
+
+  .contacts-container:hover{
+    transform: scale(1.1);
   }
 
   .contacts-left {
