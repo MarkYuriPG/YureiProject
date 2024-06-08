@@ -2,8 +2,8 @@
   "name": "my_portfolio",
   "version": "0.1.0",
   "private": false,
+  "homepage": "https://markyuripg.github.io/YureiProject/",
   "dependencies": {
-    "homepage": "https://markyuripg.github.io/YureiProject/",
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
     "@fontsource/outfit": "^5.0.13",
