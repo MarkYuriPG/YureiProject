@@ -7,6 +7,7 @@ import mysql from 'C:/Users/Mark/projects/my_portfolio/src/assets/icons/mysql.pn
 import springboot from 'C:/Users/Mark/projects/my_portfolio/src/assets/icons/springboot.png';
 import figma from 'C:/Users/Mark/projects/my_portfolio/src/assets/icons/figma.png';
 import flutter from 'C:/Users/Mark/projects/my_portfolio/src/assets/icons/flutter.png';
+import git from 'C:/Users/Mark/projects/my_portfolio/src/assets/icons/git.png';
 
 function Experience(){
     const experiences = [
@@ -18,6 +19,7 @@ function Experience(){
         { icon: springboot, label: 'Springboot' },
         { icon: figma, label: 'Figma' },
         { icon: flutter, label: 'Flutter'},
+        { icon: git, label: 'Git'},
     ];
 
     return(

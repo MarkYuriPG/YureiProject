@@ -8,6 +8,8 @@ import About from './components/about.js';
 import "@fontsource/outfit";
 import "@fontsource/outfit/400.css";
 import Experience from './components/experience.js';
+import Projects from './components/projects.js';
+import Contacts from './components/contacts.js';
 
 function App() {
 
@@ -16,8 +18,10 @@ function App() {
       <Router>
         <MyAppBar />
         <Introduction />
-        <About/>
-        <Experience/>
+        <About />
+        <Experience />
+        <Projects />
+        <Contacts/>
         <Routes>
         </Routes>
       </Router>
