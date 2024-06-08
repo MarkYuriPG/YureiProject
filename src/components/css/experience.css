@@ -1,0 +1,56 @@
+.exp-container{
+    color: white;
+    display: flex;
+    background-color: transparent;
+    position: relative;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 55vw;
+    height: fit-content;
+    margin-left: 50px;
+    margin-top: 50px;
+    text-align: start;
+    flex-direction: column;
+}
+
+.exp-word{
+    position: absolute;
+    margin-top: 0;
+    margin-left: 10px;
+  }
+
+  .experience-grid {
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit, minmax(80px, 1fr)); */
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-content: center;
+    margin-top: 75px;
+    overflow: hidden
+  }
+  
+  .experience-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .experience-item:hover {
+    transform: scale(1.1);
+  }
+  
+  .experience-icon {
+    width: 75px;
+    height: 75px;
+    margin-bottom: 10px;
+  }
+  
+  .experience-item p {
+    color: white;
+    margin: 0;
+  }

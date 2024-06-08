@@ -4,13 +4,20 @@ import MyAppBar from './components/MyAppBar.js';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Introduction from './components/Introduction.js';
+import About from './components/about.js';
+import "@fontsource/outfit";
+import "@fontsource/outfit/400.css";
+import Experience from './components/experience.js';
 
 function App() {
+
   return (
     <div className="App">
       <Router>
         <MyAppBar />
         <Introduction />
+        <About/>
+        <Experience/>
         <Routes>
         </Routes>
       </Router>
@@ -20,10 +27,6 @@ function App() {
 
 function Home() {
   return <h2>Home</h2>;
-}
-
-function About() {
-  return <h2>About</h2>;
 }
 
 export default App;

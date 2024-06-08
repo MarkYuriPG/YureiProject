@@ -1,0 +1,65 @@
+.about-container {
+    display: flex;
+    position: relative;
+    background-color: rgb(0, 27, 66);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 55vw;
+    height: 300px;
+    margin-left: 50px;
+    margin-top: 100px;
+    text-align: start;
+    flex-direction: column;
+  }
+
+  .about-word{
+    position: absolute;
+    margin-top: 0;
+    margin-left: 10px;
+  }
+
+  .icon-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 50px;
+    transition: transform 0.3s ease;
+  }
+
+  .icon-section img {
+    width: 160px; /* Adjust the size of the icon here */
+    height: 160px; /* Adjust the size of the icon here */
+  }
+
+  .icon-section:hover{
+    transform: scale(1.1);
+  }
+  
+  
+  .detail {
+    background-color: rgb(0, 27, 66);
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 275px;
+    border-radius: 5px;
+    align-items: start;
+    text-align: start;
+    width: 500px;
+  }
+
+  .detail:hover{
+    background-color: rgb(0, 58, 139);
+  }
+  
+  .detail h3 {
+    color: #ffffff;
+    font-weight: 600;
+  }
+  
+  .detail p {
+    margin: 5px 0;
+  }
