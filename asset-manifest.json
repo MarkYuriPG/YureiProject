@@ -1,29 +1,39 @@
 {
   "files": {
-    "main.css": "/YureiProject/static/css/main.735ff96a.css",
-    "main.js": "/YureiProject/static/js/main.429a9e22.js",
+    "main.css": "/YureiProject/static/css/main.db90532d.css",
+    "main.js": "/YureiProject/static/js/main.6e22a5f0.js",
     "static/js/453.41811d64.chunk.js": "/YureiProject/static/js/453.41811d64.chunk.js",
-    "static/media/myPicture.jpg": "/YureiProject/static/media/myPicture.f42f22258a7d9df9f028.jpg",
+    "static/media/IMG_6903.JPG": "/YureiProject/static/media/IMG_6903.9a32157c74d68da57dd9.JPG",
+    "static/media/IMG_4216.JPG": "/YureiProject/static/media/IMG_4216.19176f79868a2c766fab.JPG",
+    "static/media/IMG_2681.JPG": "/YureiProject/static/media/IMG_2681.2c1f463d7fb6b4480160.JPG",
+    "static/media/IMG_7421.JPG": "/YureiProject/static/media/IMG_7421.ed8b9731fb1a1b615531.JPG",
+    "static/media/IMG_7423.JPG": "/YureiProject/static/media/IMG_7423.c849de44108f0234514c.JPG",
+    "static/media/IMG_7249.JPG": "/YureiProject/static/media/IMG_7249.a11061d2d44882a9fa05.JPG",
+    "static/media/IMG_6532.JPG": "/YureiProject/static/media/IMG_6532.e7c7b3e016aec12ee453.JPG",
+    "static/media/IMG_7312.JPG": "/YureiProject/static/media/IMG_7312.a851ed959e11193d60e4.JPG",
     "static/media/bluebg.jpg": "/YureiProject/static/media/bluebg.9f87d750b9cd51a241b7.jpg",
     "static/media/mysql.png": "/YureiProject/static/media/mysql.4ee36997e9272dccb68b.png",
     "static/media/css.png": "/YureiProject/static/media/css.015d4e7819fe71e19c25.png",
     "static/media/flutter.png": "/YureiProject/static/media/flutter.ae7f97aae26959fefbe7.png",
+    "static/media/git.png": "/YureiProject/static/media/git.8322c082f223fd807d36.png",
     "static/media/springboot.png": "/YureiProject/static/media/springboot.3a62aad686a996f7bcc6.png",
+    "static/media/githubwhite.png": "/YureiProject/static/media/githubwhite.b42a1813cb527dd21047.png",
     "static/media/react.png": "/YureiProject/static/media/react.a2203d7ec91fc9bc60d5.png",
     "static/media/backend.png": "/YureiProject/static/media/backend.7b1f7070ab6850cd4ee4.png",
     "static/media/frontend.png": "/YureiProject/static/media/frontend.f805de69aeed93de7026.png",
     "static/media/outfit-latin-400-normal.woff": "/YureiProject/static/media/outfit-latin-400-normal.741bd8369a31b33122b4.woff",
     "static/media/outfit-latin-400-normal.woff2": "/YureiProject/static/media/outfit-latin-400-normal.8f48df74b0b71f7810ab.woff2",
+    "static/media/email.jpg": "/YureiProject/static/media/email.289c564a0d2a321b0fc4.jpg",
     "static/media/html.png": "/YureiProject/static/media/html.ff3cf75e3b7cbb4ea77c.png",
     "static/media/outfit-latin-ext-400-normal.woff": "/YureiProject/static/media/outfit-latin-ext-400-normal.bcad4dc76d21abb653fc.woff",
     "static/media/outfit-latin-ext-400-normal.woff2": "/YureiProject/static/media/outfit-latin-ext-400-normal.d686e869b41efb6c1f03.woff2",
     "index.html": "/YureiProject/index.html",
-    "main.735ff96a.css.map": "/YureiProject/static/css/main.735ff96a.css.map",
-    "main.429a9e22.js.map": "/YureiProject/static/js/main.429a9e22.js.map",
+    "main.db90532d.css.map": "/YureiProject/static/css/main.db90532d.css.map",
+    "main.6e22a5f0.js.map": "/YureiProject/static/js/main.6e22a5f0.js.map",
     "453.41811d64.chunk.js.map": "/YureiProject/static/js/453.41811d64.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.735ff96a.css",
-    "static/js/main.429a9e22.js"
+    "static/css/main.db90532d.css",
+    "static/js/main.6e22a5f0.js"
   ]
 }
