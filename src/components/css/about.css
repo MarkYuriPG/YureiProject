@@ -53,6 +53,7 @@
     text-align: start;
     /* width: 500px; */
     width: calc(100% - 325px); /* Adjusting width based on container size */
+    min-width: 200px;
     word-wrap: break-word;
     overflow-wrap: break-word;
     box-sizing: border-box;

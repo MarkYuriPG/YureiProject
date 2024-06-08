@@ -2,6 +2,8 @@
     margin-left: 27px;
     padding: 20px;
     display: flex;
+    width: fit-content;
+    min-width: 65vw;
 }
 
 .button {
@@ -31,7 +33,7 @@
   
 
   .button-port {
-    margin-right: 290px;
+    margin-right:auto;
     font-family: Outfit;
     font-size: 24px;
     border: none;
