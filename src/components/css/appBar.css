@@ -14,16 +14,19 @@
     color: #ffffff;
     text-align: center;
     text-decoration: none;
+    transition: transform 0.3s ease-in-out;
   }
   
   .button:hover {
     color: #76a6ff; 
     cursor: pointer;
+    transform: translateY(-10px);
   }
   
   .button-port:hover {
     color: #76a6ff; /* Change text color on hover */
     cursor: pointer;
+    transform: translateY(-10px);
   }
   
 
@@ -37,6 +40,7 @@
     color: white;
     text-align: center;
     text-decoration: none;
+    transition: transform 0.3s ease-in-out;
 }
   
   /* Add more specific styles for other buttons if needed */
