@@ -5,6 +5,12 @@ import './css/appBar.css';
 import { Link } from 'react-router-dom';
 
 const theme = createTheme();
+    const handleScrollToSection = (id) => {
+        const element = document.getElementById(id);
+        if (element) {
+        element.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
+    };
 
 function MyAppBar (){
     return (
@@ -23,11 +29,16 @@ function MyAppBar (){
                     }}>
                     <div>
                     <Toolbar>
-                        <Link className="button-port" color="inherit">Portfolio</Link>
+                        {/* <Link className="button-port" color="inherit">Portfolio</Link>
                         <Link className="button" color="inherit">About</Link>
                         <Link className="button" color="inherit">Experience</Link>
                         <Link className="button" color="inherit">Projects</Link>
-                        <Link className="button" color="inherit">Contact</Link>
+                        <Link className="button" color="inherit">Contact</Link> */}
+                        <button className="button-port" onClick={() => handleScrollToSection('portfolio')}>Portfolio</button>
+                        <button className="button" onClick={() => handleScrollToSection('about')}>About</button>
+                        <button className="button" onClick={() => handleScrollToSection('experience')}>Experience</button>
+                        <button className="button" onClick={() => handleScrollToSection('projects')}>Projects</button>
+                        <button className="button" onClick={() => handleScrollToSection('contact')}>Contact</button>
                     </Toolbar>
                     </div>
                 </AppBar>

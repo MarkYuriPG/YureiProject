@@ -25,7 +25,7 @@
     object-fit: cover; /* Ensure the image covers the frame without distortion */
     margin: 20px auto; /* Center the image horizontally */
     display: block; /* Ensure the image is treated as a block-level element */
-    transition: transform 0.3s ease;
+    transition: opacity 1s ease-in-out, transform 0.3s ease;
   }
 
   .my-picture:hover{

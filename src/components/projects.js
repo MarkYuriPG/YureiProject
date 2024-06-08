@@ -30,7 +30,7 @@ function Projects(){
 
     return(
         <div className="proj-container">
-            <h2 className='proj-word'>Notable Projects</h2>
+            <h2 className='proj-word'>Projects</h2>
             <div className="proj-cards">
                 {projects.map(project => (
                     <a href={project.githubUrl} target="_blank" rel="noopener noreferrer" key={project.id} className="proj-card-link">

@@ -9,10 +9,12 @@
     height: auto;
     margin-left: 50px;
     margin-top: 100px;
+    margin-bottom: 50px;
     text-align: center;
     align-items: center;
     justify-content: center;
     transition: transform 0.3s ease;
+    overflow: hidden;
   }
 
   .contacts-container:hover{

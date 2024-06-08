@@ -15,16 +15,17 @@ function App() {
 
   return (
     <div className="App">
-      <Router>
         <MyAppBar />
-        <Introduction />
+        {/* <Introduction />
         <About />
         <Experience />
         <Projects />
-        <Contacts/>
-        <Routes>
-        </Routes>
-      </Router>
+        <Contacts/> */}
+        <div id="portfolio"><Introduction /></div>
+        <div id="about"><About /></div>
+        <div id="experience"><Experience /></div>
+        <div id="projects"><Projects /></div>
+        <div id="contact"><Contacts /></div>
     </div>
   );
 }
