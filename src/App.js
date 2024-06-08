@@ -2,7 +2,6 @@
 import React from 'react';
 import MyAppBar from './components/MyAppBar.js';
 import './App.css';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Introduction from './components/Introduction.js';
 import About from './components/about.js';
 import "@fontsource/outfit";
@@ -16,11 +15,6 @@ function App() {
   return (
     <div className="App">
         <MyAppBar />
-        {/* <Introduction />
-        <About />
-        <Experience />
-        <Projects />
-        <Contacts/> */}
         <div id="portfolio"><Introduction /></div>
         <div id="about"><About /></div>
         <div id="experience"><Experience /></div>
