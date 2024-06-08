@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/YureiProject/static/css/main.db90532d.css",
+    "main.css": "/YureiProject/static/css/main.3e36fcf1.css",
     "main.js": "/YureiProject/static/js/main.6e22a5f0.js",
     "static/js/453.41811d64.chunk.js": "/YureiProject/static/js/453.41811d64.chunk.js",
     "static/media/IMG_6903.JPG": "/YureiProject/static/media/IMG_6903.9a32157c74d68da57dd9.JPG",
@@ -28,12 +28,12 @@
     "static/media/outfit-latin-ext-400-normal.woff": "/YureiProject/static/media/outfit-latin-ext-400-normal.bcad4dc76d21abb653fc.woff",
     "static/media/outfit-latin-ext-400-normal.woff2": "/YureiProject/static/media/outfit-latin-ext-400-normal.d686e869b41efb6c1f03.woff2",
     "index.html": "/YureiProject/index.html",
-    "main.db90532d.css.map": "/YureiProject/static/css/main.db90532d.css.map",
+    "main.3e36fcf1.css.map": "/YureiProject/static/css/main.3e36fcf1.css.map",
     "main.6e22a5f0.js.map": "/YureiProject/static/js/main.6e22a5f0.js.map",
     "453.41811d64.chunk.js.map": "/YureiProject/static/js/453.41811d64.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.db90532d.css",
+    "static/css/main.3e36fcf1.css",
     "static/js/main.6e22a5f0.js"
   ]
 }
